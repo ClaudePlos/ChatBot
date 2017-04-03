@@ -13,9 +13,13 @@ public class Bot extends JFrame {
 		this.setSize(600, 600);
 		this.setVisible(true);
 		this.setResizable(false);
+		this.setLayout(null);
 		this.setTitle("AI");
 		
-		txtEnter.setLocation(5, 5);
+		txtEnter.setLocation(2, 540);
+		txtEnter.setSize(590,30);
+		
+		this.add(txtEnter);
 		
 	}
 	
